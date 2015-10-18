@@ -98,6 +98,10 @@
             }
 
         }
+        
+        $(window).resize(function(){
+	        resize();
+	    })
 
         // events
         $(window).on('resize.tubular', function() {

@@ -27,7 +27,7 @@ a:hover{
 --------------------------------------------------------------------------------*/
 
 body{
-	min-width: 1024px;
+	min-width: 980px;
 	font-family: "Noto Sans", "游ゴシック", YuGothic,"ヒラギノ角ゴ Pro W3", "Hiragino Kaku Gothic Pro", "メイリオ", Meiryo, Osaka, "ＭＳ Ｐゴシック", "MS P Gothic", sans-serif;
 	letter-spacing: 0.05em;
 }
@@ -552,6 +552,7 @@ nav.gnav span {
 	padding: 20px 15px;
 	font-size: 12px;
 	font-weight: normal;
+	-webkit-font-smoothing: antialiased;
 }
 .slide_body .color01{background: #172a88;}
 .slide_body .color02{background: #f78f90;}
@@ -566,7 +567,7 @@ nav.gnav span {
 	min-width: 900x;
 	height: 100%;
 	background: #333;
-	font-weight: 400;
+	font-weight: 300;
 }
 .artist_upp{
 	position: absolute;
@@ -946,6 +947,8 @@ nav.gnav span {
 	margin-right: 10px;
 }
 .contactIn h4{
+	font-family: "Noto Sans";
+	-webkit-font-smoothing: antialiased;
 	font-size: 12px;
 	line-height: 20px;
 	color: #fff;

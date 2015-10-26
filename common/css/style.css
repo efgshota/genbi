@@ -284,6 +284,10 @@ nav.gnav span {
 	text-justify: inter-ideograph;
 	font-family:YuMin,serif;
 }
+#prologue_en {
+	text-align:left;
+	font-family:YuMin,serif;
+}
 .normalSlider{
 	width: 780px;
 	margin: 0 auto;
@@ -752,9 +756,8 @@ nav.gnav span {
     z-index: 10;
 }
 #interview_list{
-	width: 780px;
+	width: 860px;
 	margin: 0 auto;
-	padding-right: 30px;
 }
 #interview_list li{
 	position: relative;

@@ -271,7 +271,6 @@ header .header-right ul li:nth-child(2){
 }
 
 .tit02{
-	width: 20%;
 	margin: 0 auto;
 	padding: 10% 0;
 }
@@ -284,6 +283,19 @@ header .header-right ul li:nth-child(2){
 	font-size: 1.2rem;
 	line-height: 2.4em;
 	padding-bottom: 10%;
+}
+.prologue_text_en{
+	width: 75%;
+	margin: 0 auto;
+	text-align: left;
+	font-family : YuMincho, '游明朝', serif;
+	font-size: 1.2rem;
+	line-height: 2.4em;
+	padding-bottom: 10%;
+}
+.prologue_text p,
+.prologue_text_en p{
+	margin-bottom: 1em;
 }
 
 .txt02{
